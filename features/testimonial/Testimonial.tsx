@@ -60,6 +60,7 @@ const Testimonial = () => {
               infiniteLoop
               showIndicators={false}
               showStatus={false}
+              showThumbs={false}
             >
               {datas.map((data, index) => {
                 return (
